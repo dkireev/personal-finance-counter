@@ -17,15 +17,19 @@ export const assets = {
   securities: [
     {
       currency: "EUR",
-      amount: 1059.18,
+      amount: 1080.3,
     },
     {
       currency: "EUR",
-      amount: 1588.12,
+      amount: 1707.84,
     },
     {
       currency: "EUR",
-      amount: 1967.4,
+      amount: 1982.22,
+    },
+    {
+      currency: "EUR", // Pension III pillar
+      amount: 587.04,
     },
   ],
   deposits: [

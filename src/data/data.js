@@ -7,50 +7,54 @@ export const assets = {
   crypto: [
     {
       currency: "BTC",
-      amount: 0.03549873,
-    },
-    {
-      currency: "BTC",
-      amount: 0.21451113,
+      amount: 0.14202495,
     },
   ],
   securities: [
     {
-      currency: "EUR",
-      amount: 1080.3,
+      currency: "EUR", // Growth account 1
+      amount: 1169.15,
     },
     {
-      currency: "EUR",
-      amount: 1707.84,
+      currency: "EUR", // Growth account 2
+      amount: 1796.20,
     },
     {
-      currency: "EUR",
-      amount: 1982.22,
+      currency: "EUR", // Growth account 3
+      amount: 2405.65,
+    },
+    {
+      currency: "EUR", // Crypto exchange money on hold
+      amount: 2248.12,
+    },
+    {
+      currency: "EUR", // Pension II pillar
+      amount: 78.25,
     },
     {
       currency: "EUR", // Pension III pillar
-      amount: 587.04,
+      amount: 976.15,
     },
   ],
   deposits: [
     {
-      start: "Jan 3, 2020",
+      start: "Feb 4, 2021", // Monobank
       currency: "UAH",
-      amount: 194535,
+      amount: 196423.06,
       interest: 14.2,
       tax: 19.5,
     },
     {
-      start: "Dec 12, 2020",
+      start: "Feb 12, 2021", // Privatbank
       currency: "UAH",
-      amount: 229338.79,
+      amount: 232324.87,
       interest: 9.5,
       tax: 19.5,
     },
     {
-      start: "Dec 27, 2020",
+      start: "Feb 27, 2021", // Mom's Privatbank
       currency: "UAH",
-      amount: 50678.83,
+      amount: 52118.74,
       interest: 9.5,
       tax: 19.5,
     },
